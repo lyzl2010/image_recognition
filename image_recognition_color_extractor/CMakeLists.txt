@@ -15,7 +15,7 @@ if (CATKIN_ENABLE_TESTING)
       message(FATAL_ERROR "catkin_lint failed")
     endif()
 
-    catkin_add_nosetests(test)
+    #catkin_add_nosetests(test)
 endif()
 
 install(PROGRAMS
