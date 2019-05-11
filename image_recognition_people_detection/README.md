@@ -1,4 +1,4 @@
-# People Detector
+# People Detection
 Node for people detection in 2D. Defined as a service and not a publisher/subscriber.
 
 ## Custom dependencies
@@ -10,7 +10,7 @@ Node for people detection in 2D. Defined as a service and not a publisher/subscr
 
 # How To
 ### Start the dependent nodes
-The namespaces of the dependent nodes must be the same as the values of the [parameters](#parameters) of people detection node 
+The namespaces of the dependent nodes must be the same as the values of the [parameters](#parameters) of people detection node
 ```
 rosrun image_recognition_openpose openpose_node __ns:=openpose
 
@@ -26,7 +26,7 @@ rosrun image_recognition_util colour_extractor_node __ns:=colour_extractor
 rosrun image_recognition_people_detector people_detection_node
 ```
 This will create a service `detect_people` of type `DetectPeople` and which requires a colour image as a message
-(`sensor_msgs/Image`) as input in the service request and returns `people` in the response which is an array of 
+(`sensor_msgs/Image`) as input in the service request and returns `people` in the response which is an array of
 custom message type `image_recognition_msgs/Person`
 
 ### Parameters

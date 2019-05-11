@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>image_recognition_people_detection</name>
+  <version>0.0.0</version>
+  <description>The image_recognition_people_detection package</description>
+
+  <maintainer email="rein@todo.todo">rein</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>image_recognition_keras</depend>
+  <depend>image_recognition_msgs</depend>
+  <depend>image_recognition_openface</depend>
+  <depend>image_recognition_openpose</depend>
+  <depend>image_recognition_util</depend>
+
+</package>

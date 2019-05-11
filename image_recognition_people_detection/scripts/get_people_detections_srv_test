@@ -7,7 +7,7 @@ import time
 import cv2
 import rospy
 from cv_bridge import CvBridge
-from image_recognition_people_detector.people_detector import PeopleDetector
+from image_recognition_people_detection.people_detector import PeopleDetector
 from image_recognition_msgs.srv import DetectPeople, DetectPeopleRequest
 #from sensor_msgs.msgs import Image
 
